@@ -35,7 +35,7 @@ uint8_t readBits()
 
 uint8_t scanKeys()
 {
-  uint8_t bits;
+  uint8_t bits = 0;
   for (uint8_t row = 0; row < 2; row++) {
     selectRow(row);
     bits  = (bits  << 2) | readBits();
