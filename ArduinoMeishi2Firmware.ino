@@ -45,7 +45,7 @@ uint8_t scanKeys()
 
 void setup()
 {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(LED, OUTPUT);
   pinMode(ROW0, OUTPUT);
   pinMode(ROW1, OUTPUT);
   digitalWrite(ROW0, HIGH);
